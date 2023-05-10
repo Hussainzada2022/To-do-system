@@ -1,0 +1,34 @@
+body{
+    background: url('tour-6-3.jpg') ;
+    background-size: cover;
+}
+.addTodo{
+    background: rgba(73, 73, 73, 0.2);
+    position: absolute;
+    bottom: 5%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.cardList{
+    padding-left: 1%;
+}
+.toDoList{
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    border-bottom: 1px solid #919191;
+}
+.toDoList.complete .text{
+    text-decoration: line-through;
+}
+.toDoList:last-child{
+    border-bottom: none;
+}
+.toDoList .text{
+    padding-left: 3%;
+    border-left: 4px solid #ebdb08;
+}
